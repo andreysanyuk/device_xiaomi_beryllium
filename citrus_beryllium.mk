@@ -6,12 +6,11 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common CarbonROM stuff.
-$(call inherit-product, vendor/carbon/config/common.mk)
-$(call inherit-product, vendor/carbon/config/gsm.mk)
+# Inherit some common CitruS-CAF stuff.
+$(call inherit-product, vendor/citrus/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := carbon_beryllium
+PRODUCT_NAME := citrus_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Poco F1

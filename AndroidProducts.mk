@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_beryllium.mk
+    $(LOCAL_DIR)/citrus_beryllium.mk
