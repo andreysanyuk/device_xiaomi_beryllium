@@ -6,11 +6,11 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common CitruS-CAF stuff.
-$(call inherit-product, vendor/citrus/common.mk)
+# Inherit some common Syberia stuff.
+$(call inherit-product, vendor/syberia/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := citrus_beryllium
+PRODUCT_NAME := syberia_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Poco F1
@@ -24,3 +24,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="beryllium"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi-rev1
+
+SYBERIA_BUILD_TYPE := OFFICIAL

@@ -1,2 +1,2 @@
-add_lunch_combo citrus_beryllium-user
-add_lunch_combo citrus_beryllium-userdebug
+add_lunch_combo syberia_beryllium-user
+add_lunch_combo syberia_beryllium-userdebug
